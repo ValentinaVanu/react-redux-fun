@@ -1,10 +1,14 @@
 import React from 'react'
+import { Welcome } from '../welcome'
+import { StyledAppWrapper } from './app.style'
 
 const App = () => {
   return (
-    <div>
-      Helloooo!
-    </div>
+    <>
+      <StyledAppWrapper>
+        <Welcome />
+      </StyledAppWrapper>
+    </>
   )
 }
 export { App }
