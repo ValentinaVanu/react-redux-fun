@@ -1,11 +1,24 @@
 {
-  "welcome": {
-    "menu":[
-      "Home",
-      "About",
-      "Results",
-      "Register",
-      "Contact"
-    ]
+  "app": {
+    "menu": {
+      "/": {
+        "section": "Home",
+        "link": "#"
+      },
+      "results": {
+        "section": "Results",
+        "link": "#"
+      },
+      "register": {
+        "section": "Register",
+        "link": "#"
+      },
+      "contact": {
+        "section": "Contact",
+        "link": "#"
+      }
+    },
+    "title": "title",
+    "description": "Some description"
   }
 }

@@ -4,37 +4,30 @@ import { EachMenuItem, MenuWrapper, StyledLogo } from './welcome.style'
 import GitHubIcon from '@material-ui/icons/GitHub'
 
 const Welcome = () => {
-  const[welcome, updateWelcome] = useState ({})
+  const [app, updat] = useState({ menu: {} })
 
   useEffect(
     () => {
-      const getResult = async() => {
-        const { data } = await get("http://localhost:1234/welcome")
-        updateWelcome(data)
+      const getResult = async () => {
+        const { data } = await get("http://localhost:1234/app")
+        updat(data)
       }
       getResult()
     },
     []
   )
-  
+
   const {
-    menu =[]
-  }= welcome
+    menu
+  } = app
 
   return (
     <>
       <StyledLogo>
-        <GitHubIcon
-        fontSize="large"/>
-        React and Redux Fun
+        <GitHubIcon fontSize="large" />
+        <span>React and Redux Fun</span>
       </StyledLogo>
-      <MenuWrapper>{menu.map( menuItem => {
-        return(
-          <EachMenuItem>{menuItem}</EachMenuItem>
-        )
-      })}
-      </MenuWrapper>
     </>
-    )
+  )
 }
 export { Welcome }
