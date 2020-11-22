@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import { get } from 'axios'
-import { Router } from '@reach/router'
 
+import * as SA from './app.style'
 import { Welcome } from '../welcome'
-import { StyledAppWrapper } from './app.style'
 import { Menu } from '../menu'
 import { Results } from '../results'
 import { Register } from '../register'
@@ -29,15 +28,15 @@ const App = () => {
 
   return (
     <>
-      <StyledAppWrapper>
+      <SA.StyledAppWrapper>
         <Menu menu={menu} />
-        <Router>
+        <SA.StyledRouter>
           <Welcome path="/" />
           <Results path="results" />
           <Register path="register" />
           <Contact path="contact" />
-        </Router>
-      </StyledAppWrapper>
+        </SA.StyledRouter>
+      </SA.StyledAppWrapper>
     </>
   )
 }

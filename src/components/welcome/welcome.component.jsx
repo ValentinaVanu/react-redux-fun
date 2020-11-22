@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import { get } from 'axios'
-import { EachMenuItem, MenuWrapper, StyledLogo } from './welcome.style'
-import GitHubIcon from '@material-ui/icons/GitHub'
 
 const Welcome = () => {
   const [app, updat] = useState({ menu: {} })
@@ -23,10 +21,7 @@ const Welcome = () => {
 
   return (
     <>
-      <StyledLogo>
-        <GitHubIcon fontSize="large" />
-        <span>React and Redux Fun</span>
-      </StyledLogo>
+      <div>Welcome  </div>
     </>
   )
 }

@@ -1,16 +1,23 @@
 import React from 'react'
 import { object } from 'prop-types'
+import GitHubIcon from '@material-ui/icons/GitHub'
 
-import { EachMenuItem, MenuWrapper } from './menu.style'
+import * as SM from './menu.style'
 
 const Menu = ({ menu }) =>{
   return (
-    <MenuWrapper>{Object.keys(menu).map(menuKey => {
-      return (
-        <EachMenuItem to={menuKey}>{menu[menuKey].section}</EachMenuItem>
-      )
-    })}
-    </MenuWrapper>
+    <>
+      <SM.StyledLogo>
+        <GitHubIcon fontSize="large" />
+        <span>React and Redux Fun</span>
+      </SM.StyledLogo>
+      <SM.MenuWrapper>{Object.keys(menu).map(menuKey => {
+        return (
+          <SM.EachMenuItem to={menuKey}>{menu[menuKey].section}</SM.EachMenuItem>
+        )
+      })}
+      </SM.MenuWrapper>
+    </>
   )
 }
 
