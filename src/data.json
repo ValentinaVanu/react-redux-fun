@@ -20,5 +20,100 @@
     },
     "title": "title",
     "description": "Some description"
+  },
+  "results": {
+    "resultList": [ 
+      {
+      "id": 1,
+      "firstName": "Valentina",
+      "lastName": "Vanu",
+      "boolean": "yes",
+      "date": "22.11.2020"
+      },
+      {
+      "id": 2,
+      "firstName": "Carl",
+      "lastName": "Flink",
+      "boolean": "yes",
+      "date": "12.09.2020"
+      },
+      {
+      "id": 3,
+      "firstName": "Marian",
+      "lastName": "Zburlea",
+      "boolean": "no",
+      "date": "03.05.2019"
+      },
+      {
+      "id": 4,
+      "firstName": "Chloe",
+      "lastName": "Love",
+      "boolean": "yes",
+      "date": "31.08.2019"
+      },
+      {
+      "id": 5,
+      "firstName": "Gratiela",
+      "lastName": "Zburlea",
+      "boolean": "yes",
+      "date": "28.06.2019"
+      },
+      {
+      "id": 6,
+      "firstName": "Gabriela",
+      "lastName": "Ene",
+      "boolean": "no",
+      "date": "01.10.2020"
+      },
+      {
+      "id": 7,
+      "firstName": "Andreea",
+      "lastName": "Ivascu",
+      "boolean": "yes",
+      "date": "14.08.2011"
+      },
+      {
+      "id": 8,
+      "firstName": "Maria",
+      "lastName": "Teodora",
+      "boolean": "yes",
+      "date": "17.03.2015"
+      },
+      {
+      "id": 9,
+      "firstName": "Diana",
+      "lastName": "Maria",
+      "boolean": "no",
+      "date": "31.12.2016"
+      },
+      {
+      "id": 10,
+      "firstName": "Andreea",
+      "lastName": "Dinca",
+      "boolean": "yes",
+      "date": "04.06.2019"
+      },
+      {
+      "id": 11,
+      "firstName": "Diana",
+      "lastName": "Zorkot",
+      "boolean": "no",
+      "date": "24.02.2018"
+      },
+      {
+      "id": 12,
+      "firstName": "Cherry",
+      "lastName": "Zorkot",
+      "boolean": "no",
+      "date": "13.11.2017"
+      },
+      {
+      "id": 13,
+      "firstName": "Cristina",
+      "lastName": "Ionita",
+      "boolean": "yes",
+      "date": "01.03.2018"
+      }
+    ]
   }
 }

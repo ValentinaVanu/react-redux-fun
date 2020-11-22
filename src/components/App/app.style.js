@@ -7,6 +7,6 @@ export const StyledAppWrapper= styled.div`
   grid-gap: 15px;
 `
 export const StyledRouter= styled(Router)`
-  grid-row: 2/12;
-  grid-column: 4/12;
+  grid-row: 2/6;
+  grid-column: 2/12;
 `
