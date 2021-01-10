@@ -16,6 +16,10 @@
       "contact": {
         "section": "Contact",
         "link": "#"
+      },
+      "chat": {
+        "section": "Chat",
+        "link": "#"
       }
     },
     "title": "title",
